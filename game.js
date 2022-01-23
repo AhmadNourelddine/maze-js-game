@@ -9,8 +9,6 @@ window.onload = function() {
   var boundaries = document.getElementsByClassName('boundary')
   var buttons = document.getElementsByTagName('button')
   var headings = document.getElementsByTagName('h1')
-  var sheets = document.styleSheets
-  var style_sheet = sheets[0]
   var scoring = headings[1]
   var button = buttons[0]
 

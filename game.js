@@ -19,11 +19,14 @@ window.onload = function() {
 
   function add_button() {
     console.log('button added successfully')
+    const div = document.createElement('div')
+    document.body.appendChild(div)
+    div.style.display = 'flex'
+    div.style.justifyContent = 'center'
+
     const btn = document.createElement('button')
     btn.innerHTML = 'Restart Game'
-    document.body.appendChild(btn)
-    btn.style.position = 'relative'
-    btn.style.left = '27%'
+    div.appendChild(btn)
   }
 
   function add_score() {
